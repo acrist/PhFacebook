@@ -11,15 +11,17 @@
 @class PhWebViewController;
 @class PhAuthenticationToken;
 
-@interface PhFacebook : NSObject
-{
+@interface PhFacebook : NSObject {
 @private
     NSString *_appID;
     id _delegate;
+	id _sender;
     PhWebViewController *_webViewController;
     PhAuthenticationToken *_authToken;
     NSString *_permissions;
 }
+
+@property (assign) id sender;
 
 - (id) initWithApplicationID: (NSString*) appID delegate: (id) delegate;
 

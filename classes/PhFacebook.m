@@ -17,6 +17,7 @@
 #define kFBStoreAccessPermissions @"FBStoreAccessPermissions"
 
 @implementation PhFacebook
+@synthesize sender = _sender;
 
 #pragma mark Initialization
 
@@ -145,16 +146,17 @@
         }
       
         // Retrieve token from web page
-        if (_webViewController == nil)
-        {
-            _webViewController = [[PhWebViewController alloc] init];
-            [NSBundle loadNibNamed: @"FacebookBrowser" owner: _webViewController];
+        if (_webViewController == nil) {
+            _webViewController = [[PhWebViewController alloc] initWithNibName:@"FacebookBrowser" bundle:[NSBundle bundleForClass:[self class]]];
         }
 
         // Prepare window but keep it ordered out. The _webViewController will make it visible
         // if it needs to.
+		NSLog(@"authURL: %@", authURL);
         _webViewController.parent = self;
         _webViewController.permissions = scope;
+//		[_webViewController performSelector:@selector(showUI)];
+		NSLog(@"wweb: %@", _webViewController.webView);
         [_webViewController.webView setMainFrameURL: authURL];
     }
 }
@@ -310,5 +312,6 @@
     if ([_delegate respondsToSelector: @selector(didDismissUI:)])
         [_delegate performSelectorOnMainThread: @selector(didDismissUI:) withObject: self waitUntilDone: YES];
 }
+
 
 @end

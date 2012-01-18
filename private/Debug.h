@@ -8,8 +8,8 @@
 //  Copyright 2010 Philippe Casgrain. All rights reserved.
 //
 
-#ifdef DEBUG
+//#ifdef DEBUG
     #define DebugLog(format, ...) CFShow([NSString stringWithFormat:format, ## __VA_ARGS__])
-#else
-    #define DebugLog(format, ...)
-#endif                     
+//#else
+//    #define DebugLog(format, ...)
+//#endif                     

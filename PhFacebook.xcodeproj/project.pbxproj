@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0759BC6B14C67A1700D3D0ED /* INPopoverController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0759BC6214C67A1600D3D0ED /* INPopoverController.h */; };
+		0759BC6C14C67A1700D3D0ED /* INPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0759BC6314C67A1600D3D0ED /* INPopoverController.m */; };
+		0759BC6D14C67A1700D3D0ED /* INPopoverControllerDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0759BC6414C67A1600D3D0ED /* INPopoverControllerDefines.h */; };
+		0759BC6E14C67A1700D3D0ED /* INPopoverWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0759BC6514C67A1600D3D0ED /* INPopoverWindow.h */; };
+		0759BC6F14C67A1700D3D0ED /* INPopoverWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0759BC6614C67A1600D3D0ED /* INPopoverWindow.m */; };
+		0759BC7014C67A1700D3D0ED /* INPopoverWindowFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 0759BC6714C67A1600D3D0ED /* INPopoverWindowFrame.h */; };
+		0759BC7114C67A1700D3D0ED /* INPopoverWindowFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0759BC6814C67A1600D3D0ED /* INPopoverWindowFrame.m */; };
+		0759BC7214C67A1700D3D0ED /* INAlwaysKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0759BC6914C67A1600D3D0ED /* INAlwaysKeyWindow.h */; };
+		0759BC7314C67A1700D3D0ED /* INAlwaysKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0759BC6A14C67A1600D3D0ED /* INAlwaysKeyWindow.m */; };
+		0759BC7514C67E1500D3D0ED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759BC7414C67E1500D3D0ED /* QuartzCore.framework */; };
 		374AB110122CB847004A5C23 /* Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 374AB10F122CB846004A5C23 /* Debug.h */; };
 		375CCD711225EED40064B3AE /* PhFacebook.h in Headers */ = {isa = PBXBuildFile; fileRef = 375CCD6F1225EED40064B3AE /* PhFacebook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		375CCD721225EED40064B3AE /* PhFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 375CCD701225EED40064B3AE /* PhFacebook.m */; };
@@ -20,6 +30,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0759BC6214C67A1600D3D0ED /* INPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPopoverController.h; sourceTree = "<group>"; };
+		0759BC6314C67A1600D3D0ED /* INPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INPopoverController.m; sourceTree = "<group>"; };
+		0759BC6414C67A1600D3D0ED /* INPopoverControllerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPopoverControllerDefines.h; sourceTree = "<group>"; };
+		0759BC6514C67A1600D3D0ED /* INPopoverWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPopoverWindow.h; sourceTree = "<group>"; };
+		0759BC6614C67A1600D3D0ED /* INPopoverWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INPopoverWindow.m; sourceTree = "<group>"; };
+		0759BC6714C67A1600D3D0ED /* INPopoverWindowFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPopoverWindowFrame.h; sourceTree = "<group>"; };
+		0759BC6814C67A1600D3D0ED /* INPopoverWindowFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INPopoverWindowFrame.m; sourceTree = "<group>"; };
+		0759BC6914C67A1600D3D0ED /* INAlwaysKeyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAlwaysKeyWindow.h; sourceTree = "<group>"; };
+		0759BC6A14C67A1600D3D0ED /* INAlwaysKeyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INAlwaysKeyWindow.m; sourceTree = "<group>"; };
+		0759BC7414C67E1500D3D0ED /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		089C1667FE841158C02AAC07 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -47,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0759BC7514C67E1500D3D0ED /* QuartzCore.framework in Frameworks */,
 				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
 				378DEC0E1228B619008061E4 /* WebKit.framework in Frameworks */,
 			);
@@ -61,6 +82,22 @@
 				8DC2EF5B0486A6940098B216 /* PhFacebook.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0759BC5C14C679D300D3D0ED /* INPopover */ = {
+			isa = PBXGroup;
+			children = (
+				0759BC6214C67A1600D3D0ED /* INPopoverController.h */,
+				0759BC6314C67A1600D3D0ED /* INPopoverController.m */,
+				0759BC6414C67A1600D3D0ED /* INPopoverControllerDefines.h */,
+				0759BC6514C67A1600D3D0ED /* INPopoverWindow.h */,
+				0759BC6614C67A1600D3D0ED /* INPopoverWindow.m */,
+				0759BC6714C67A1600D3D0ED /* INPopoverWindowFrame.h */,
+				0759BC6814C67A1600D3D0ED /* INPopoverWindowFrame.m */,
+				0759BC6914C67A1600D3D0ED /* INAlwaysKeyWindow.h */,
+				0759BC6A14C67A1600D3D0ED /* INAlwaysKeyWindow.m */,
+			);
+			path = INPopover;
 			sourceTree = "<group>";
 		};
 		0867D691FE84028FC02AAC07 /* PhFacebook */ = {
@@ -98,6 +135,7 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0759BC5C14C679D300D3D0ED /* INPopover */,
 				375CCD6F1225EED40064B3AE /* PhFacebook.h */,
 				375CCD701225EED40064B3AE /* PhFacebook.m */,
 				378DEC131228B9FD008061E4 /* PhWebViewController.h */,
@@ -123,6 +161,7 @@
 				D2F7E79907B2D74100F64583 /* CoreData.framework */,
 				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
 				378DEC0D1228B618008061E4 /* WebKit.framework */,
+				0759BC7414C67E1500D3D0ED /* QuartzCore.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
@@ -146,6 +185,11 @@
 			files = (
 				375CCD711225EED40064B3AE /* PhFacebook.h in Headers */,
 				374AB110122CB847004A5C23 /* Debug.h in Headers */,
+				0759BC6B14C67A1700D3D0ED /* INPopoverController.h in Headers */,
+				0759BC6D14C67A1700D3D0ED /* INPopoverControllerDefines.h in Headers */,
+				0759BC6E14C67A1700D3D0ED /* INPopoverWindow.h in Headers */,
+				0759BC7014C67A1700D3D0ED /* INPopoverWindowFrame.h in Headers */,
+				0759BC7214C67A1700D3D0ED /* INAlwaysKeyWindow.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +266,10 @@
 				375CCD721225EED40064B3AE /* PhFacebook.m in Sources */,
 				378DEC161228B9FD008061E4 /* PhWebViewController.m in Sources */,
 				37FB6FEE122AD367006339F3 /* PhAuthenticationToken.m in Sources */,
+				0759BC6C14C67A1700D3D0ED /* INPopoverController.m in Sources */,
+				0759BC6F14C67A1700D3D0ED /* INPopoverWindow.m in Sources */,
+				0759BC7114C67A1700D3D0ED /* INPopoverWindowFrame.m in Sources */,
+				0759BC7314C67A1700D3D0ED /* INAlwaysKeyWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* FacebookTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* FacebookTestAppDelegate.m */; };
-		372449691225EA5F009925D0 /* PhFacebook.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 372449661225EA36009925D0 /* PhFacebook.framework */; };
 		375CCDCE1225F0C10064B3AE /* PhFacebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372449661225EA36009925D0 /* PhFacebook.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -17,16 +16,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		372449621225EA0C009925D0 /* PBXContainerItemProxy */ = {
+		074042B014C6793A00CDBD6F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3724495E1225EA0C009925D0 /* PhFacebook.xcodeproj */;
+			containerPortal = 074042AC14C6793A00CDBD6F /* PhFacebook.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
 			remoteInfo = PhFacebook;
 		};
-		372449641225EA17009925D0 /* PBXContainerItemProxy */ = {
+		0759BC7614C67E5F00D3D0ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3724495E1225EA0C009925D0 /* PhFacebook.xcodeproj */;
+			containerPortal = 074042AC14C6793A00CDBD6F /* PhFacebook.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = PhFacebook;
@@ -40,7 +39,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				372449691225EA5F009925D0 /* PhFacebook.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		074042AC14C6793A00CDBD6F /* PhFacebook.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PhFacebook.xcodeproj; path = ../PhFacebook.xcodeproj; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -58,7 +57,6 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		3724495E1225EA0C009925D0 /* PhFacebook.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PhFacebook.xcodeproj; path = ../PhFacebook.xcodeproj; sourceTree = SOURCE_ROOT; };
 		372449661225EA36009925D0 /* PhFacebook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PhFacebook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FB6DCF12295FC5006339F3 /* ApplicationID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationID.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FacebookTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FacebookTest-Info.plist"; sourceTree = "<group>"; };
@@ -78,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		074042AD14C6793A00CDBD6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				074042B114C6793A00CDBD6F /* PhFacebook.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,17 +165,9 @@
 		3724495A1225E9F2009925D0 /* Projects */ = {
 			isa = PBXGroup;
 			children = (
-				3724495E1225EA0C009925D0 /* PhFacebook.xcodeproj */,
+				074042AC14C6793A00CDBD6F /* PhFacebook.xcodeproj */,
 			);
 			name = Projects;
-			sourceTree = "<group>";
-		};
-		3724495F1225EA0C009925D0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				372449631225EA0C009925D0 /* PhFacebook.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +186,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				372449651225EA17009925D0 /* PBXTargetDependency */,
+				0759BC7714C67E5F00D3D0ED /* PBXTargetDependency */,
 			);
 			name = FacebookTest;
 			productInstallPath = "$(HOME)/Applications";
@@ -218,8 +216,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 3724495F1225EA0C009925D0 /* Products */;
-					ProjectRef = 3724495E1225EA0C009925D0 /* PhFacebook.xcodeproj */;
+					ProductGroup = 074042AD14C6793A00CDBD6F /* Products */;
+					ProjectRef = 074042AC14C6793A00CDBD6F /* PhFacebook.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -230,11 +228,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		372449631225EA0C009925D0 /* PhFacebook.framework */ = {
+		074042B114C6793A00CDBD6F /* PhFacebook.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = PhFacebook.framework;
-			remoteRef = 372449621225EA0C009925D0 /* PBXContainerItemProxy */;
+			remoteRef = 074042B014C6793A00CDBD6F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -281,10 +279,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		372449651225EA17009925D0 /* PBXTargetDependency */ = {
+		0759BC7714C67E5F00D3D0ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PhFacebook;
-			targetProxy = 372449641225EA17009925D0 /* PBXContainerItemProxy */;
+			targetProxy = 0759BC7614C67E5F00D3D0ED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -312,6 +310,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../build/$(CONFIGURATION)",
+					"$(SRCROOT)",
+					"$(inherited)",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -329,8 +332,9 @@
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../build/$(CONFIGURATION)",
+					"$(SRCROOT)",
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../build/Debug\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

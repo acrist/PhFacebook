@@ -34,7 +34,19 @@
 
 - (IBAction) getAccessToken: (id) sender
 {
+	if (NSClassFromString(@"NSPopover")) {
+		NSLog(@"aa");
+//		NSPopover *_popover = [[NSPopover alloc] init];
+        // The popover retains us and we retain the popover. We drop the popover whenever it is closed to avoid a cycle.
+//        _popover.contentViewController = [fb ]
+//        _popover.behavior = NSPopoverBehaviorTransient;
+//        _popover.delegate = self;
+		
+//		[_popover showRelativeToRect:[sender bounds] ofView:sender preferredEdge:NSMinYEdge];
+		
+	}
     // Always get a new token, don't get a cached one
+	[fb setSender:sender];
     [fb getAccessTokenForPermissions: [NSArray arrayWithObjects: @"read_stream", @"export_stream", nil] cached: NO];
 }
 
